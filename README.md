@@ -1,4 +1,4 @@
-# TanStack Start Tutorial: Building a Jokes App
+# Building an Accessible Web App For DevJokes 
 
 This repository demonstrates how to use TanStack Start to build a full-stack React application. The project is structured as a step-by-step tutorial, starting with basic setup and progressively adding more advanced features.
 
