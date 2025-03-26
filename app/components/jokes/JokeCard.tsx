@@ -18,7 +18,7 @@ export function JokeCard({ joke }: JokeCardProps) {
   return (
     <Card
       role="listitem"
-      className="overflow-hidden transition-all hover:shadow-md mb-6"
+      className="overflow-hidden transition-all hover:shadow-md hover:shadow-amber-950 not-visited:mb-6 outline-amber-950"
       tabIndex={0}
     >
       <CardHeader className="pb-2">
@@ -28,8 +28,8 @@ export function JokeCard({ joke }: JokeCardProps) {
       </CardHeader>
       <CardContent className="py-2">
         <p className="leading-relaxed">Answer: {joke.answer}</p>
-        <Button onClick={handleLike}>Like</Button>
-        <Button onClick={handleDislike}>Dislike</Button>
+        {/* <Button onClick={handleLike}>Like</Button>
+        <Button onClick={handleDislike}>Dislike</Button> */}
       </CardContent>
     </Card>
   );
